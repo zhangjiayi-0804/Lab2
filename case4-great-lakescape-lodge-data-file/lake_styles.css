@@ -1,0 +1,92 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+@font-face {  
+   font-family: 'cac_champagne';   
+   src: url('cac_champagne.woff') format('woff'),
+        url('cac_champagne.ttf') format('truetype'), 
+}
+@font-face {  
+   font-family: 'DobkinPlain';   
+   src: url('DobkinPlain.woff') format('woff'), 
+        url('DobkinPlain.ttf') format('truetype'), 
+}
+body{
+   background:  rgba(116, 140, 7, 0.677);
+ 
+}
+body  header {
+   background-color: rgb(138, 66, 160);
+}
+body section#leftcol  {
+   background-color: black;
+   color: white;
+}
+
+section#leftcol aside.special{
+   background-color: rgb(213, 123, 140)
+}
+section#leftcol aside.special h1{
+   text-align: center
+}
+section#leftcol aside h1{
+   text-align: center
+}
+section#leftcol aside{
+   background-color: rgb(170, 153, 85)
+}
+body section#rightcol  {
+   background-color: rgb(95, 26, 93);
+   color: white;
+}
+body section#rightcol a{
+   color: rgb(187, 185, 185)
+}
+body section#leftcol a{
+   color: rgb(240, 182, 235)
+}
+section#leftcol>h1{
+   font-family:'cac_champagne',serif;
+   font-size: 50px;
+   line-height: 0%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+section#rightcol>nav>h2{
+   font-family:'DobkinPlain',serif;
+
+}
+section#rightcol blockquote{
+   color: rgb(177, 109, 240);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px
+}
+header>nav a{
+   display: block;
+   width: 100%;
+   text-decoration: none;
+   color:  rgb(187, 185, 185)
+}
+section#rightcol a{
+   display: block;
+   width: 100%;
+   text-decoration: none;
+}
+section#rightcol>nav>ul{
+   list-style-type: none
+}
+footer{
+   background-color: rgb(73, 68, 68);
+   color: white;
+   text-align: center;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
